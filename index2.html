@@ -32,8 +32,7 @@
     </div>
     <div data-role="content">
     
-            
-        <img src="FOX.gif" width="309" height="400"> 
+        <img src="SMARTFOX.gif" width="309" height="400"> 
     </div>
     <div  data-role="footer" data-position="fixed">
         <div data-role="navbar" data-iconpos="top">
@@ -43,11 +42,7 @@
                         Items
                     </a>
                 </li>
-                <li>
-                    <a href="#page3" data-transition="fade"  data-icon="">
-                        Calendar
-                    </a>
-                </li>
+               
                 <li>
               
                   <a href="#page4" data-transition="fade"  data-icon="">
@@ -67,13 +62,24 @@
 <!--Items-->
 <div data-role="page" id="page2">
     <div data-role="header" data-position="fixed">
-        <h3>ITEMS: Our mobile app</h3>
+        <h3>Items</h3>
     </div>
     <div data-role="content">
-        <a href="#page1">
-            <div style=""><img src="../Desktop/cat.gif" width="320" height="240">
-            </div>
-        </a>
+   Run is due today on your goal "Run a 5k." Complete it now?
+   <div data-role="navbar" data-iconpos="left">
+            <ul>
+                <li>
+                    <a href="#page3" data-transition="fade" data-theme="" data-icon="plus">
+                        Yes!
+                    </a>
+                </li>
+                <li>
+                    <a href="#page4" data-transition="fade" data-theme="" data-icon="delete">
+                        No...
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar" data-iconpos="top">
@@ -83,11 +89,7 @@
                         Animal
                     </a>
                 </li>
-                <li>
-                    <a href="#page3" data-transition="fade"  data-icon="">
-                        Calendar
-                    </a>
-                </li>
+               
                 <li>
               
                   <a href="#page4" data-transition="fade"  data-icon="">
@@ -104,413 +106,14 @@
     </div>
 </div>
 
-<!--Calendar-->
-<div data-role="page" id="page3">
-    <div  data-role="header" data-position="fixed">
-        <h3>CALENDAR</h3>
-    </div>
-    <div data-role="content">
-        <a href="#page1">
-            <div style=""><img src="../Desktop/cat.gif" width="320" height="240">
-            </div>
-        </a>
-    </div>
-    <div  data-role="footer" data-position="fixed">
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page1" data-transition="fade"  data-icon="">
-                        Animal
-                    </a>
-                </li>
-                <li>
-                    <a href="#page2" data-transition="fade"  data-icon="">
-                        Items
-                    </a>
-                </li>
-                <li>
-              
-                  <a href="#page4" data-transition="fade" data-icon="">
-                        Tasks
-                    </a>
-                </li>
-                <li>
-                    <a href="#page5" data-transition="fade"  data-icon="">
-                        Discover
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<!-- Tasks-->
+<!--FatFox-->
 <div data-role="page" id="page4">
-    <div  data-role="header" data-position="fixed">
-        <h3>My Tasks</h3>
-    </div>
-    <div data-role="content">
-    <div id="checkboxes1" data-role="fieldcontain">
-            <fieldset data-role="controlgroup" data-type="vertical">
-                <legend>
-                    Tasks for "learn to code":
-                </legend>
-                <input id="checkbox1" name="" type="checkbox">
-                <label for="checkbox1">
-                    Find a coding website
-                </label>
-                <input id="checkbox3" name="" type="checkbox">
-                <label for="checkbox3">
-                    Pick a language
-                </label>
-                <input id="checkbox2" name="" type="checkbox">
-                <label for="checkbox2">
-                    Schedule out coding sessions
-                </label>
-                <input id="checkbox4" name="" type="checkbox">
-                <label for="checkbox4">
-                    Complete first coding session
-                </label>
-            </fieldset>
-        </div>
-        <div id="checkboxes1" data-role="fieldcontain">
-            <fieldset data-role="controlgroup" data-type="vertical">
-                <legend>
-                    Tasks for "Run a 5K":
-                </legend>
-                <input id="checkbox1" name="" type="checkbox">
-                <label for="checkbox1">
-                    Run: due Tuesday
-                </label>
-                <input id="checkbox3" name="" type="checkbox">
-                <label for="checkbox3">
-                    Sign up for 5K
-                </label>
-                <input id="checkbox2" name="" type="checkbox">
-                <label for="checkbox2">
-                    Practice barefoot running
-                </label>
-                
-             </fieldset>
-        </div>
-                  <div data-role="fieldcontain">
-            <label for="textinput1">
-                Add new task:
-            </label>
-            <input name="" id="textinput1" placeholder="" value="" type="text">
-        </div>
-        <a data-role="button" href="#page8">
-            Add task
-        </a>
-    </div>
-    <div  data-role="footer" >
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page1" data-transition="fade"  data-icon="">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#page2" data-transition="fade"  data-icon="">
-                        Complete
-                    </a>
-                </li>
-               
-              
-            </ul>
-        </div>
-    </div>
-</div>
-
-<!--Discover-->
-<div data-role="page" id="page5">
-    <div  data-role="header" data-position="fixed">
-        <h3>Discover</h3>
-    </div>
-    <div data-role="content">
-        
-            <ul data-role="listview" data-divider-theme="b" data-inset="true">
-            <li data-role="list-divider" role="heading">
-                Goal Categories
-            </li>
-            <li >
-                <a href="" data-transition="slideup">
-                    Health
-                </a>
-            </li>
-            <li >
-                <a href="" data-transition="slideup">
-                    Relationships
-                </a>
-            </li>
-            <li >
-                <a href="" data-transition="slideup">
-                    Career Development
-                </a>
-            </li>
-            <li >
-                <a href="#page6" data-transition="slideup">
-                    Personal Development
-                </a>
-            </li>
-        </ul>
-        </a>
-    </div>
-    <div  data-role="footer" data-position="fixed">
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page1" data-transition="fade"  data-icon="">
-                        Animal
-                    </a>
-                </li>
-                <li>
-                    <a href="#page2" data-transition="fade"  data-icon="">
-                        Items
-                    </a>
-                </li>
-                <li>
-              
-                  <a href="#page3" data-transition="fade"  data-icon="">
-                        Calendar
-                    </a>
-                </li>
-                <li>
-                    <a href="#page4" data-transition="fade"  data-icon="">
-                        Tasks
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<!-- Personal Development-->
-<div data-role="page" id="page6">
-    <div  data-role="header" data-position="fixed">
-        <h3>Discover</h3>
-    </div>
-    <div data-role="content">
-        
-            <ul data-role="listview" data-divider-theme="b" data-inset="true">
-            <li data-role="list-divider" role="heading">
-                Goals in Personal Development
-            </li>
-            <li >
-                <a href="" data-transition="slideup">
-                    Meditate
-                </a>
-            </li>
-            <li >
-                <a href="" data-transition="slideup">
-                    Read
-                </a>
-            </li>
-            <li >
-                <a href="" data-transition="slideup">
-                   Plan a budget
-                </a>
-            </li>
-            <li >
-                <a href="#page6" data-transition="slideup">
-                    Spend time outside
-                </a>
-            </li>
-            <li >
-                <a href="#page7" data-transition="slideup">
-                    Learn to code
-                </a>
-            </li>
-            <li >
-                <a href="#page6" data-transition="slideup">
-                    Learn to juggle
-                </a>
-            </li>
-        </ul>
-        </a>
-    </div>
-    <div  data-role="footer" data-position="fixed">
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page5" data-transition="fade"  data-icon="">
-                        Back
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</div>
-
-<!--Learn to code-->
-<div data-role="page" id="page7">
-    <div  data-role="header">
-        <h3>
-           Coding
-        </h3>
-    </div>
-    <div data-role="content">
-        <div data-role="collapsible-set">
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    What
-                </h3>
-                Coding is a shortened term for computer programming, which involves writing a set of instructions for a computer to carry out to complete a task. There are many different types of programming languages to choose from. Different languages are used for different things. For example, this app is written in a language for making easy-to-use mobile web pages called jQuery Mobile. Many data scientists use Python or R to crunch numbers. Websites are made in HTML and CSS. 
-            </div>
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    Why
-                </h3>
-                If you like to solve problems and create new things, coding is a great hobby for anyone. It's also a very employable skill. Many jobs that you wouldn't think of as computer jobs consider coding skills a plus in today's market. The number of coding jobs in America is expected to grow by 30% by 2020. 
-            </div>
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    How
-                </h3>
-               Learning to code takes time. It's best to concentrate on one language completely before moving on to other languages. Many books are available to learn to code and many interactive sites to teach coding are free. If you want to learn to code, consider adding a one-hour block five days a week to your schedule. 
-            </div>
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    Resouces
-                </h3>
-               <ul>
-            <li>   <a href="http://coderace.me/#">Code Racer</a></li>
-            <li>   <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/">MIT OpenCourseWare</a></li>
-            <li>   <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a></li>
-            <li>   <a href="https://www.coursera.org/">Coursera</a></li>
-             <li>  <a href="http://www.codecademy.com/#!/exercises/0">Code Academy</a></li></ul>
-            </div>
-        </div>
-    </div>
-    <div  data-role="footer" data-position="fixed">
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page6" data-transition="fade"  data-icon="">
-                        Back
-                    </a>
-                </li>
-                <li>
-                
-                <a href="#page4" data-transition="fade"  data-icon="">
-                Add goal
-                </a>
-                
-                </li>
-                
-            </ul>
-        </div>
-    </div> >
-    </div>
-</div>
-
-
-<!-- Tasks, reading added-->
-<div data-role="page" id="page8">
-    <div  data-role="header" data-position="fixed">
-        <h3>My Tasks</h3>
-    </div>
-    <div data-role="content">
-    <div id="checkboxes1" data-role="fieldcontain">
-            <fieldset data-role="controlgroup" data-type="vertical">
-                <legend>
-                    Tasks for "learn to code":
-                </legend>
-                <input id="checkbox1" name="" type="checkbox">
-                <label for="checkbox1">
-                    Find a coding website
-                </label>
-                <input id="checkbox3" name="" type="checkbox">
-                <label for="checkbox3">
-                    Pick a language
-                </label>
-                <input id="checkbox2" name="" type="checkbox">
-                <label for="checkbox2">
-                    Schedule out coding sessions
-                </label>
-                
-                <input id="checkbox4" name="" type="checkbox">
-                <label for="checkbox4">
-                 
-                        Complete first coding session
-                   
-                </label>
-               
-            </fieldset>
-        </div>
-        <div id="checkboxes1" data-role="fieldcontain">
-            <fieldset data-role="controlgroup" data-type="vertical">
-                <legend>
-                    Tasks for "Run a 5K":
-                </legend>
-                <input id="checkbox1" name="" type="checkbox">
-                <label for="checkbox1">
-                    Run: due Tuesday
-                </label>
-                <input id="checkbox3" name="" type="checkbox">
-                <label for="checkbox3">
-                    Sign up for 5K
-                </label>
-                <input id="checkbox2" name="" type="checkbox">
-                <label for="checkbox2">
-                    Practice barefoot running
-                </label>
-                
-             </fieldset>
-             
-        </div>
-        
-        <div id="checkboxes1" data-role="fieldcontain">
-            <fieldset data-role="controlgroup" data-type="vertical">
-                <legend>
-                    Other tasks:
-                </legend>
-                <input id="checkbox1" name="" type="checkbox">
-                <label for="checkbox1">
-                    Read 1 book per week
-                </label>
-             
-                
-             </fieldset>
-                  <div data-role="fieldcontain">
-            <label for="textinput1">
-                Add new task: 
-            </label>
-            <input name="" id="textinput1" placeholder="" value="" type="text">
-        </div>
-        <a data-role="button" href="#page8">
-            Add task
-        </a>
-    </div>
-    <div  data-role="footer" >
-        <div data-role="navbar" data-iconpos="top">
-            <ul>
-                <li>
-                    <a href="#page1" data-transition="fade"  data-icon="">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#page10" data-transition="fade"  data-icon="">
-                        Complete
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- Complete -->
-<div data-role="page" id="page10">
     <div data-role="header" data-position="fixed">
-        <h3>CHANGED</h3>
+        <h3>My Spirit Animal</h3>
     </div>
     <div data-role="content">
-        <a href="#page1">
-            
-        <img src="FOX.gif" width="309" height="400"> </a>
+    
+        <img src="FATFOX.gif" width="309" height="400"> 
     </div>
     <div  data-role="footer" data-position="fixed">
         <div data-role="navbar" data-iconpos="top">
@@ -520,11 +123,7 @@
                         Items
                     </a>
                 </li>
-                <li>
-                    <a href="#page3" data-transition="fade"  data-icon="">
-                        Calendar
-                    </a>
-                </li>
+                
                 <li>
               
                   <a href="#page4" data-transition="fade"  data-icon="">
@@ -540,6 +139,43 @@
         </div>
     </div>
 </div>
+
+
+<!--FitFox-->
+<div data-role="page" id="page3">
+    <div data-role="header" data-position="fixed">
+        <h3>My Spirit Animal</h3>
+    </div>
+    <div data-role="content">
+    
+        <img src="FITFOX.gif" width="309" height="400"> 
+    </div>
+    <div  data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#page2" data-transition="fade"  data-icon="">
+                        Items
+                    </a>
+                </li>
+                
+                <li>
+              
+                  <a href="#page4" data-transition="fade"  data-icon="">
+                        Tasks
+                    </a>
+                </li>
+                <li>
+                    <a href="#page5" data-transition="fade"  data-icon="">
+                        Discover
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
 
 
 </body>
